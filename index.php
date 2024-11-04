@@ -2,7 +2,7 @@
 
 error_reporting(~E_NOTICE);
 
-$controller = isset($_GET["c"]) ? $_GET["c"] : "Home";
+$controller = isset($_GET["c"]) ? $_GET["c"] : "Post";
 
 $method = isset($_GET["m"]) ? $_GET["m"] : "index";
 
